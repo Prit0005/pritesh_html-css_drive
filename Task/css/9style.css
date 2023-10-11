@@ -1,0 +1,12 @@
+.gradient {
+  background: linear-gradient(rgb(255, 145, 0,0.5), rgb(241, 237, 237,0.5), hsl(120, 100%, 25%,0.7)) ,url(./nikeman.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: auto;
+
+}
+body{
+  margin: 0;
+  padding: 0;
+}
