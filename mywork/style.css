@@ -1,0 +1,117 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ /* sec1 css */
+ .container {
+     width: 1300px;
+     margin: 0 auto;
+ }
+
+ .sec1 {
+     background-image: url(./assest/Background-1.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ ul li {
+     display: inline-block;
+     margin: 0 0 0 90px;
+ }
+
+ ul li a {
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+     font-family: sans-serif;
+     text-transform: uppercase;
+ }
+
+ .head1 {
+     padding: 30px 0 0 0;
+ }
+
+ .dis h1 {
+     font-size: 108px;
+     text-transform: uppercase;
+     color: white;
+     font-family: sans-serif;
+     text-align: center;
+     margin: 50px auto 0;
+ }
+
+ .para {
+     width: 900px;
+     margin: 0 auto;
+ }
+
+ .para p {
+     font-size: 30px;
+     font-weight: 400px;
+     font-family: 'Montserrat', sans-serif;
+     color: white;
+     display: inline-block;
+     text-align: center;
+     margin: 20px auto;
+ }
+
+ .btn {
+     text-align: center;
+ }
+
+ .btn button {
+     background-color: #f6d365;
+     padding: 10px 30px;
+     word-spacing: 5px;
+     text-transform: uppercase;
+     border-radius: 4px;
+     margin: 20px auto 90px;
+     border: none;
+ }
+
+ .main {
+     padding: 90px;
+ }
+
+ /* sec2 css */
+ .sec2 {
+     background: url(./assest/background-2.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .img {
+     text-align: center;
+ }
+
+ .lorem {
+     text-align: center;
+     margin: 80px auto;
+     width: 80%;
+ }
+
+ .lorem p {
+     font-size: 37px;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ .name {
+     text-align: center;
+     margin-bottom: 90px;
+ }
+
+ .name h2 {
+     font-size: 50px;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ .sec2main {
+     padding: 90px;
+ }
