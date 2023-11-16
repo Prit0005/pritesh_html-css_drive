@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* sec1 css */
+
+.sec1 {
+    background-image: url(./assest/back-sec1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background-color: #4a1831;
+}
+
+.cointner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+ul li {
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffd7ad;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.main-sec1 {
+    padding: 50px 0 100px 0;
+}
+
+.name-sec1 h1 {
+    font-size: 125px;
+    color: #ffd7ad;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.sec1lorem {
+    width: 40%;
+}
+
+.sec1lorem p {
+    margin: 30px 0 0 0;
+    font-size: 30px;
+    color: #ffd7ad;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.sec1-button button {
+    margin: 30px 0 0 0;
+    padding: 10px 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #4a1831;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 33px;
+    background-color: #ffd7ad;
+}
+
+
+/* sec2 css */
+
+.sec2 {
+    background-image: url(./assest/back-sec2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.row1 {
+    padding: 70px;
+}
+
+.row1-h2 h2 {
+    font-size: 64px;
+    color: #4a1831;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.row1-p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row1-p p {
+    font-size: 25px;
+    color: #4a1831;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+    margin: 40px 0 80px 0;
+}
+
+.row1-btn {
+    text-align: center;
+}
+
+.row1-btn button {
+    padding: 10px 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffd7ad;
+    font-weight: 700;
+    font-family: sans-serif;
+    border-radius: 33px;
+    background-color: #4a1831;
+}
+
+.row2-img img {
+    width: 100%;
+}
+
+.row3 {
+    margin: 70px 0 50px 0;
+}
+
+.row3-main {
+    display: flex;
+    align-items: center;
+}
+
+.col1-row3 {
+    width: 50%;
+}
+
+.col2-row3 {
+    width: 50%;
+}
+
+.col2-row3 h2 {
+    font-size: 75px;
+    color: #4a1831;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.col2-row3 p {
+    margin: 40px auto;
+    font-size: 30px;
+    color: #4a1831;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.col2-row3 button {
+    padding: 10px 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffd7ad;
+    font-weight: 700;
+    font-family: sans-serif;
+    border-radius: 32px;
+    background-color: #4a1831;
+}
+
+.row4-img {
+    text-align: right;
+}
+
+.row4-text {
+    position: absolute;
+    bottom: 243px;
+}
+
+.row4-text h1 {
+    font-size: 167px;
+    text-transform: uppercase;
+    color: #e63956;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.row4-text h4 {
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #55112e;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.row4-text h2 {
+    font-size: 104px;
+    text-transform: uppercase;
+    color: #6cc5ac;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+/* sec3 css  */
+
+.sec3 {
+    background-image: url(./assest/back-sec3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row1-sec3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row3main-sec3 {
+    padding: 100px;
+}
+
+.col1-sec3 {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.col2-sec3 {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.col1-sec3-text h2 {
+    font-size: 75px;
+    color: #ffd7ad;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.col1-sec3-text p {
+    margin: 40px 0 40px 0;
+    width: 80%;
+    font-size: 30px;
+    color: #ffd7ad;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.col1-sec3-text button {
+    padding: 10px 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #4a1831;
+    font-weight: 700;
+    font-family: sans-serif;
+    border-radius: 32px;
+    background-color: #ffd7ad;
+}
+
+
+/* sec4 css  */
+.sec4 {
+    background-image: url(./assest/back-sec4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.sec4-text {
+    padding: 100px 0 0 0;
+}
+
+.sec4-text p {
+    padding: 100px 0 0 0;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 42px;
+    color: #ffd7ad;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.sec4-text {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sec4-text h4 {
+    margin: 100px 0 0 0;
+    font-size: 45px;
+    color: #ffd7ad;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+/* sec5 css  */
+.sec5 {
+    background-image: url(./assest/back-sec2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec5-text {
+    padding: 100px;
+}
+
+.sec5-h1 h1 {
+    margin: 100px 0 50px 0;
+    font-size: 75px;
+    color: #4a1831;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.sec5-lorem {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sec5-lorem p {
+    margin: 0 0 50px 0;
+    font-size: 30px;
+    color: #4a1831;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.sec5-input {
+    text-align: center;
+    margin: 0 0 100px 0;
+}
+
+.sec5-input input {
+    padding: 10px 100px 10px 20px;
+    border-radius: 50px;
+    opacity: 0.502;
+    font-size: 25px;
+    background-color: white;
+    color: #000000;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.sec5-input button {
+
+    padding: 10px;
+    border-radius: 33px;
+    background-color: #4a1831;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+
+/* sec6 css  */
+.sec6 {
+    background-image: url(./assest/back-sec3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row1-sec6 {
+    color: #ffd7ad;
+    font-weight: 400;
+    font-family:sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.col1-sec6 p{
+    margin: 20px 0 30px 0;
+}
+.col1-sec6{
+    width: 30%;
+}
+.col1-sec6 p{
+    font-size: 24px;
+    width:90% ;
+}
+.col2-sec6 h4,.col1-sec6 h4,.col3-sec6 h4,.col4-sec6 h4{
+    font-size: 32px;
+}
+.col2-sec6 p,.col3-sec6 p,.col4-sec6 p{
+    font-size: 24px;
+    line-height: 42px;
+}
+.row1-sec6{
+    padding: 100px 0 100px 0;
+}

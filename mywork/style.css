@@ -72,7 +72,7 @@
      word-spacing: 5px;
      text-transform: uppercase;
      border-radius: 4px;
-     margin: 20px auto 90px;
+     margin: 20px auto 100px;
      border: none;
  }
 
@@ -80,9 +80,296 @@
      padding: 90px;
  }
 
- /* sec2 css */
- .sec2 {
+ /* sec2 and sec4 css */
+ .sec2,
+ .sec4 {
      background: url(./assest/background-2.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     overflow: hidden;
+ }
+ .vec41 {
+    position: absolute;
+    top: 40px;
+    right:64px
+ }
+ .vec42 {
+    position: absolute;
+    bottom: 40px;
+    left:400px
+ }
+ .vec43 {
+    transform: scalex(-1);
+    position: absolute;
+    top: 40px;
+    left:290px
+ }
+ .vec44 {
+    position: absolute;
+    top: 40px;
+    left:100px
+ }
+ .vec45 {
+    position: absolute;
+    bottom: 0px;
+    right:500px;
+ }
+ .vec46 {
+    position: absolute;
+    top: 6px;
+    right:375px;
+ }
+ .vec47 {
+    transform: scalex(-1);
+    position: absolute;
+    bottom: 40px;
+    left:80px
+ }
+ .vec48 {
+    transform: scalex(-1);
+    position: absolute;
+    top: 170px;
+    left:80px
+ }
+ .vec49 {
+    position: absolute;
+    bottom: 6px;
+    right:50px;
+ }
+.vec1 {
+    position: absolute;
+    top: 40px;
+    left:-65px
+ }
+
+ .vec2 {
+    position: absolute;
+    top: 20px;
+    left:227px
+ }
+ .vec3 {
+    position: absolute;
+    top: 25px;
+    right:363px
+ }
+ .vec4 {
+    position: absolute;
+    top: 25px;
+    right:80px
+ }
+ .vec5 {
+    transform: scalex(-1);
+    position: absolute;
+    bottom: 44px;
+    left:5px
+ }
+ .vec6 {
+    position: absolute;
+    bottom: 25px;
+    right:460px
+ }
+ .vec7 {
+    position: absolute;
+    bottom: 25px;
+    left:460px
+ }
+ .vec8 {
+    position: absolute;
+    bottom: 11px;
+    right:-101px;
+ }
+ .sec2main,
+ .sec4main {
+     padding: 90px;
+ }
+
+ .sec2text h2,
+ .sec4text h2 {
+     font-size: 64px;
+     text-transform: uppercase;
+     color: #333333;
+     font-family: sans-serif;
+     text-align: center;
+     padding: 0 0 30px 0;
+ }
+
+ .sec2lorem p,
+ .sec4lorem p {
+     width: 60%;
+     font-size: 25px;
+     color: #333333;
+     font-family: "Montserrat";
+     text-align: center;
+     margin: 0 auto;
+ }
+
+ .row-sec2 {
+     display: flex;
+     justify-content: space-between;
+     
+ }
+
+ .row-sec4 {
+     display: flex;
+     justify-content: space-between;
+     margin: 65px 0 0 0;
+ }
+
+ .box1,
+ .box2,
+ .box3 {
+     border: 10px solid #333333;
+     width: 320px;
+     height: 320px;
+     background-color: transparent;
+ }
+
+ .col1,
+ .col2,
+ .col3 {
+     width: 30%;
+ }
+
+ .img1 img,
+ .img2 img,
+ .img3 img {
+     width: 100%;
+ }
+
+ .row-sec4 h2 {
+     padding: 70px 0 40px 0;
+     font-size: 75px;
+     color: #333333;
+     font-weight: 700;
+     font-family: sans-serif;
+     text-align: center;
+ }
+
+ .row-sec4 h3 {
+     font-size: 33px;
+     text-transform: uppercase;
+     color: #333333;
+     font-weight: 700;
+     font-family: sans-serif;
+     text-align: center;
+ }
+
+ .imgbottom h2 {
+     text-align: center;
+ }
+
+ .imgbottom {
+     margin: 20px 0;
+ }
+
+ .imglorem {
+     margin: 10px 0 90px 0;
+ }
+
+ .imglorem p {
+     text-align: center;
+     width: 80%;
+     margin: 0 auto;
+     font-size: 19px;
+     color: #333333;
+     font-weight: 400;
+     font-family: "Montserrat";
+ }
+
+ /* sec3 and sec5 css */
+ .sec3,
+ .sec5 {
+     background: url(./assest/background-3.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     overflow: hidden;
+ }
+ .vec31 {
+    position: absolute;
+    top: -120px;
+    right:-96px;
+ }
+ .vec32 {
+    position: absolute;
+    top: 50px;
+    right:390px;
+ }
+ .vec33 {
+    position: absolute;
+    bottom: 50px;
+    left:10px;
+ }
+ .vec34 {
+    position: absolute;
+    bottom: 50px;
+    right:45px;
+ }
+ .vec35 {
+    transform: scalex(-1);
+    position: absolute;
+    top: 13px;
+    left:-30px;
+ }
+ .vec36 {
+    position: absolute;
+    top: 240px;
+    right:23px;
+ }
+ .vec37 {
+    position: absolute;
+    bottom: 150px;
+    left:615px;
+ }
+ .sec3main,
+ .sec5main {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 90px 0;
+ }
+
+ .sec3-col1,
+ .sec5-col1 {
+     width: 50%;
+ }
+
+ .sec3-col2 {
+     width: 50%;
+ }
+
+ .sec3head h2,
+ .sec5head h2 {
+     font-size: 58px;
+     text-transform: uppercase;
+     color: #ffffff;
+     font-family: "Montserrat";
+     margin: 0 0 20px 0;
+ }
+
+ .sec3lorem p,
+ .sec5lorem p {
+     font-size: 30px;
+     color: #ffffff;
+     font-family: "Montserrat";
+     margin: 0 0 20px 0;
+ }
+
+ .btn-sec3 button,
+ .btn-sec5 button {
+     background-color: #f6d365;
+     padding: 10px 30px;
+     word-spacing: 5px;
+     text-transform: uppercase;
+     border-radius: 4px;
+     margin: 20px auto 90px;
+     border: none;
+ }
+
+ /* sec6 css */
+ .sec6 {
+     background: url(./assest/background-6.png);
      background-repeat: no-repeat;
      background-size: cover;
  }
@@ -112,6 +399,186 @@
      font-family: 'Montserrat', sans-serif;
  }
 
- .sec2main {
+ .sec6main {
      padding: 90px;
+ }
+
+ /* sec7 css  */
+ .sec7 {
+     background: url(./assest/background-2.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     overflow: hidden;
+ }
+ .vec71 {
+    position: absolute;
+    top: -52px;
+    right: 27px;
+ }
+ .vec72 {
+    position: absolute;
+    bottom: -81px;
+    left: 524px;
+ }
+ .vec73 {
+    transform: scalex(-1);
+    position: absolute;
+    top: 12px;
+    left: 610px;
+ }
+ .vec74 {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+ }
+ .vec75 {
+    position: absolute;
+    bottom: 65px;
+    right: 376px;
+ }
+ .vec76 {
+    position: absolute;
+    bottom: 250px;
+    right: 90px;
+ }
+ .vec77 {
+    transform: scalex(-1);
+    position: absolute;
+    bottom: 60px;
+    left: 90px;
+ }
+ .vec78 {
+    transform: scalex(-1);
+    position: absolute;
+    bottom: 110px;
+    left: 185px;
+ }
+ .vec79 {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+ }
+ .sec7main {
+     padding: 90px;
+ }
+
+ .sec7text h2 {
+     font-size: 61px;
+     text-transform: uppercase;
+     color: #333333;
+     font-weight: 700;
+     font-family: sans-serif;
+     text-align: center;
+     margin: 90px auto;
+ }
+
+ .sec7lorem p {
+     font-size: 30px;
+     color: #333333;
+     font-weight: 400;
+     font-family: "Montserrat";
+     text-align: center;
+     margin: 70px auto;
+ }
+
+ .sec7input {
+     text-align: center;
+     margin: 50px auto 100px;
+ }
+
+ .sec7input input {
+     width: 549px;
+     height: 63px;
+     border-radius: 4px;
+     background-color: #ffffff;
+     font-size: 25px;
+     color: #333333;
+     font-family: "Montserrat";
+ }
+
+ .sec7input button {
+     width: 222px;
+     height: 65px;
+     border-radius: 4px;
+     background-color: #333333;
+     font-size: 25px;
+     text-transform: uppercase;
+     color: #ffffff;
+     font-weight: 700;
+     font-family: "Montserrat";
+     text-align: center;
+     margin-left: -10px;
+ }
+
+ /* sec8 css  */
+
+ .sec8 {
+     background: url(./assest/background-3.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .sec8main {
+     padding: 100px;
+ }
+
+ .sec8row {
+     display: flex;
+     justify-content: space-between;
+     margin: 100px auto;
+    width: 100%;
+ }
+
+ .sec8-col1 {
+     width: 30%;
+     color: #ffffff;
+     margin-right: 100px;
+ }
+
+ .sec8-col2 {
+     width: 20%;
+     color: #ffffff;
+ }
+
+ .sec8-col3 {
+     width: 20%;
+     color: #ffffff;
+ }
+
+ .sec8-col4 {
+     width: 20%;
+     color: #ffffff;
+ }
+
+ .sec8-col1-title,
+ .sec8-col2-title,
+ .sec8-col3-title,
+ .sec8-col4-title {
+     margin: 20px auto;
+     font-size: 31px;
+     color: #ffffff;
+     font-weight: 400;
+     font-family: "Montserrat";
+ }
+
+ .sec8-col1-lorem {
+     margin: 20px auto;
+     font-size: 24px;
+     color: #ffffff;
+     font-weight: 400;
+     font-family: "Montserrat";
+ }
+
+ .sec8-col2-about,.sec8-col3-service,.sec8-col4-other {
+     font-size: 24px;
+     line-height: 42px;
+     color: #ffffff;
+     font-weight: 400;
+     font-family: "Montserrat";
+     margin: 0 20px 0 0;
+ }
+ .sec8-col1-social i{
+    font-size: 30px;
+    margin: 5px;
  }
