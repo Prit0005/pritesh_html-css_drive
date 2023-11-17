@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cointner{
+    width: 1450px;
+    margin: 0 auto;
+}
+.row-1{
+    width: 100%;
+    display: flex;
+}
+.box1{
+    width: 30%;
+    border: 2px solid;
+    margin: 10px auto;
+}
+.h4{
+    background-color: gray;
+    text-align: center;
+}
+h4{
+  margin: 100px auto;
+  display: inline-block;
+  color: white ;
+  font-size: 40px;
+}
+p{
+    width: 90%;
+    margin: 0 auto;
+    margin: 10px auto;
+}
+.button{
+    width: 90%;
+    margin: 0 auto;
+}
+button{
+    padding: 5px 10px;
+    margin:5px 0 0 -5px;
+}
