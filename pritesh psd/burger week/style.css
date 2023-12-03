@@ -112,7 +112,7 @@ li a {
 /* sec2 css */
 
 .cointner2 {
-    width: 1300px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
 }
@@ -120,9 +120,11 @@ li a {
 .row1-sec2 {
     display: flex;
     margin: 50px auto;
+    width: 100%;
 }
 
 .col2-sec2 {
+    
     margin: 0 0 0 90px;
 }
 

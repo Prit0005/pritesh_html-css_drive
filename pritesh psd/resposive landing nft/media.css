@@ -1,0 +1,67 @@
+@media(min-width:576px) {
+    .cointner {
+        width: 520px;
+    }
+    .ttl-sale,.auction,.artists{
+        width: 30%;
+        margin: 0 auto;
+    }
+}
+@media(min-width:768px) {
+    .cointner {
+        width: 720px;
+    }
+
+    .herorowcol-1,
+    .herorowcol-2 {
+        width: 100%;
+    }
+    .ttl-sale,.auction,.artists{
+        width: 30%;
+        margin: 0  auto;
+    }
+}
+
+@media(min-width:992px) {
+    .cointner {
+        width: 920px;
+    }
+
+    .herorowcol-1,
+    .herorowcol-2 {
+        width: 45%;
+        margin: 0 auto;
+    }
+    .ttl-sale,.auction,.artists{
+        width: 30%;
+        margin: 0 auto;
+    }
+    .herorowcol-1 .hero-title>p{
+        width: 35vw;
+        font-size: 3.5em;
+    }
+    .herorowcol-1 .hero-text>p{
+        font-size: 1em;
+    }
+}
+@media(min-width:1200px) {
+    .cointner {
+        width: 1180px;
+    }
+
+    .herorowcol-1,
+    .herorowcol-2 {
+        width: 45%;
+        margin: 0 auto;
+    }
+    .ttl-sale,.auction,.artists{
+        width: 30%;
+    }
+    .herorowcol-1 .hero-title>p{
+        width: 35vw;
+        font-size: 4.5em;
+    }
+    .herorowcol-1 .hero-text>p{
+        font-size: 1.8em;
+    }
+}

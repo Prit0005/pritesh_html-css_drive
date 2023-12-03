@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cointner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/**************** navbar **********************/
+.navbar {
+    background-color: black;
+    padding: 10px 0;
+}
+
+.navrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link ul li {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.link ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.link button {
+    background-color: #A259FF;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.link ul li a:hover {
+    color: #A259FF;
+    box-shadow: #FFF outset;
+}
+
+.link button:hover {
+    color: #A259FF;
+    text-shadow: 0 0 5px 5px #A259FF;
+    background-color: #FFF;
+}
+
+/**************** hero section **********************/
+.hero {
+    background-color: black;
+}
+
+.herorowcol-1,
+.herorowcol-2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.herorow {
+    display: flex;
+    padding: 4.6em 0;
+    flex-wrap: wrap;
+}
+
+.herorowcol-1 .hero-title>p {
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4.5em;
+    font-weight: 600;
+    width: 100%;
+    text-transform: capitalize;
+    margin: 0 0 0.4em;
+}
+
+.herorowcol-1 .hero-text>p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.8em;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1em 0;
+}
+
+.herorowcol-1 .hero-btn>button {
+    background-color: #A259FF;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin: 0.5em 0;
+}
+
+.herorowcol-2 img {
+    width: 100%;
+}
+
+.additional-info {
+    display: flex;
+    margin: 1em 0;
+    flex-wrap: wrap;
+}
+
+.ttl-sale,
+.auction,
+.artists {
+    width: 30vw;
+}
+
+.ttl-sale>h4,
+.auction>h4,
+.artists>h4 {
+    color: #FFF;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.ttl-sale>p,
+.auction>p,
+.artists>p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.6em;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.herorowcol-1 .hero-btn>button:hover{
+    color: #A259FF;
+    text-shadow: 0 0 5px 5px #A259FF;
+    background-color: #FFF;
+}
+.additional-info:hover{
+    text-shadow: 5px 2px 5px #A259FF;
+}

@@ -5,7 +5,7 @@
 
  /* sec1 css */
  .container {
-     width: 1300px;
+     width: 100%;
      margin: 0 auto;
  }
 
@@ -207,6 +207,8 @@
  .row-sec2 {
      display: flex;
      justify-content: space-between;
+     width: 100%;
+     flex-wrap: wrap;
      
  }
 
@@ -228,7 +230,7 @@
  .col1,
  .col2,
  .col3 {
-     width: 30%;
+     width: 100%;
  }
 
  .img1 img,
@@ -276,7 +278,36 @@
      font-weight: 400;
      font-family: "Montserrat";
  }
-
+ @media(min-width:576px){
+    .container{
+        width: 500px;
+    }
+}
+ @media(min-width:678px){
+    .container{
+        width: 620px;
+    }
+    .col1,.col2,.col3{
+        width: 45%;
+        margin: 0 auto;
+    }
+}
+ @media(min-width:992px){
+    .container{
+        width: 920px;
+    }
+    .col1,.col2,.col3{
+        width: 30%;
+    }
+}
+@media(min-width:1200px){
+    .container{
+        width: 1150px;
+    }
+    .col1,.col2,.col3{
+        width: 30%;
+    }
+}
  /* sec3 and sec5 css */
  .sec3,
  .sec5 {
@@ -339,6 +370,7 @@
      width: 50%;
  }
 
+ 
  .sec3head h2,
  .sec5head h2 {
      font-size: 58px;
@@ -582,3 +614,4 @@
     font-size: 30px;
     margin: 5px;
  }
+ 

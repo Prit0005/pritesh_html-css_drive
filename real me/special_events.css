@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cointner{
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    position: fixed;
+    top: -30px;
+    left: 200px;
+}
+.tc{
+    text-align: center;
+}
+.row{
+    display: flex;
+    padding: 2em 0;
+}
+.jsb{
+    justify-content: space-between;
+}
+.first{
+    margin: 1em 0 0;
+}
+.col-50{
+    width: 45%;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+.col-20{
+    width: 20%;
+    background-color: white;
+    margin: 0 auto;
+    text-align:  center;
+    padding: 1em 1em;
+    border-radius: 20px;
+}
+.te{
+    text-align: end;
+}
+.header .col-50 >a{
+    text-decoration: none;
+    color: #666;
+    background-color: white;
+}
+.first,.two,.third,.four{
+    background-color:whitesmoke;
+}
+.col-20 a,.col-50 >a{
+    text-decoration: none;
+}
+.col-20 .phone-name {
+    color: black;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.col-20 .phone-adv{
+    color: #666;
+    margin: 0 0 10px 0;
+}
+.col-20 .phone-price{
+    color: red;
+    margin: 0 0 10px 0;
+}
+.col-20 .phone-disc{
+    color: goldenrod;
+    margin: 0 0 10px 0;
+    background-color: rgb(228, 215, 183);
+    border-radius: 50px;
+}
+.two .col-50{
+    background-color: white;
+}
+.col-50 h2, p{
+    color: black;
+    margin:  0 1em 1em;
+}
+.col-50 button{
+    padding: 1em;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    margin: 0  0 0 1em;
+}
+.col-50>.phone-price{
+    color: red;
+}
+.col-50>.phone-disc{
+    color: goldenrod;
+    background-color:  rgb(228, 215, 183);
+    width: 100px;
+    border-radius: 50px;
+}
+.four .col-50{
+    background-color: white;
+}

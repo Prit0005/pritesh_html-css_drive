@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cointner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* -------------------------------- header & navbar ------------------------------- */
+header {
+    background-color: black;
+    padding: 1em 0;
+}
+
+nav {
+    background: rgba(27, 27, 27, 0.91);
+    backdrop-filter: blur(10.5px);
+    padding: 2.5em 0;
+}
+
+.rownav {
+    align-items: center;
+}
+
+.rowhead,
+.rownav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rowhead .rowheadcol-1 p,
+.rowhead .rowheadcol-2 p {
+    display: inline-block;
+    color: white;
+}
+
+.rowhead .rowheadcol-1 i,
+.rowhead .rowheadcol-2 i,
+.rownav .rownavcol-3 i {
+    color: #ffcc4a;
+    padding: 0 0.5em;
+}
+
+.rowhead .rowheadcol-3 i {
+    color: white;
+    margin: 0 0.3em;
+}
+
+.rownav .rownavcol-1 p {
+    display: inline-block;
+    color: #FFF;
+    font-family: 'Cabin', sans-serif;
+    font-size: 2em;
+}
+
+.rownav .rownavcol-2 ul li {
+    display: inline-block;
+}
+
+.rownav .rownavcol-2 ul li a {
+    text-decoration: none;
+    color: #FFF;
+    margin: 0 0.5em;
+}
+
+.rownav .rownavcol-3 button {
+    padding: 1em;
+    border-radius: 50px;
+}
+
+.rowhead .rowheadcol-3 i:hover {
+    color: #ffcc4a;
+
+}
+
+.rownav .rownavcol-2 ul li :hover {
+    color: rgb(3, 255, 179);
+    margin: 1.3em;
+    border-radius: 50px;
+    padding: 0.5em 1.5em;
+    box-shadow: 0 0 5px 5px black;
+}
+
+/* -------------------------------- section 1 ------------------------------- */
+.sec1 {
+    background-image: url(./assest/main-bg-sec1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6.6em;
+}
+
+.sec1 .box-sec1 {
+    width: 100%;
+    border-radius: 29px;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(5.5px);
+}
+
+.sec1 .box-sec1 .box-title p {
+    padding: 1em;
+    width: 100%;
+    color: #181818;
+    font-family: Cabin;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.sec1 .box-sec1 .box-title-2 p {
+    padding: 0 3.5em 3.5em;
+    width: 100%;
+}
+
+.sec1 .box-sec1 .btn #btn1 {
+    margin: 0 0 0 3.5em;
+    padding: 1.5em;
+    border-radius: 40px;
+    background-color: #181818;
+    color: #FFF;
+}
+
+.sec1 .box-sec1 .btn #btn2 {
+    padding: 1.3em;
+    border-radius: 40px;
+    font-size: 1em;
+}
+
+.sec1 .box-sec1 .btn #btn2 i {
+    color: green;
+    padding: 0 0.2em;
+}
+
+.sec1 .box-sec1 .btn {
+    padding: 0 0 3.1em;
+}
+
+/* -------------------------------- section 2 ------------------------------- */
+.sec2-row1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sec2-row1 .row1-img1,
+.row1-img2,
+.row1-img3,
+.row1-img4,
+.row1-img5,
+.row1-img6 {
+    margin: 1.3em 2em;
+}
+
+.sec2-row1 img:hover {
+    filter: drop-shadow(5px 5px 5px rgb(12, 3, 3));
+}
+
+.sec2-row1 img {
+    width: 7.5em;
+}
+
+.sec2-row2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec2-row2-col1,
+.sec2-row2-col12 {
+    width: 100%;
+}
+
+.sec2-row2-col2 img {
+    width: 100%;
+}
+
+.sec2-row2-col1 .btn button {
+    padding: 0.4em;
+    border-radius: 50px;
+    background-color: rgb(255, 170, 0);
+    color: white;
+    border: none;
+}
+
+.sec2-row2-col1 .title p {
+    font-family: Cabin;
+    font-size: 2em;
+    font-weight: 700px;
+    margin: 0.5em auto;
+}
+
+.sec2-row2-col1 .subtitle p {
+    color: #181818;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0.5em auto;
+}
+
+.sec2-row2-col1 .subtitle2 p {
+    color: #595566;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin: 1em auto;
+    font-weight: 400;
+}
+
+.col1-row1 {
+    display: flex;
+}
+
+.col1-row1 .box1,
+.box2 {
+    margin: 6.6em 1.5em 0 0;
+    padding: 3.3em 0 0;
+}
+
+.col1-row1 :hover {
+    filter: drop-shadow(2px 2px 2px rgb(216, 211, 211));
+    transform: scale(1);
+}
+
+/* -------------------------------- section 3 ------------------------------- */
+.service {
+    background-color: #F5F5F5;
+    padding: 6.6em;
+}
+
+.box-btn {
+    text-align: center;
+}
+
+.box-title-ser {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.box-title-ser p {
+    color: #181818;
+    font-family: Cabin;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    margin: 0.5em auto;
+}
+
+.box-btn button {
+    background-color: green;
+    color: white;
+    padding: 0.1em 0.5em;
+    border-radius: 50px;
+}
+
+.ser-box1-row1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row1-box1 {
+    width: 27%;
+    margin: 0.5em auto;
+    border-radius: 30px;
+    padding: 0 2em 1em;
+}
+
+.row1-box1 #title {
+    color: #181818;
+    font-family: 'Cabin';
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.row1-box1 #title2 {
+    color: #595566;
+    font-family: Lato;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.row1-box1:hover {
+    box-shadow: 0 0 5px 5px rgb(238, 232, 232);
+    background-color: rgb(15, 8, 8);
+}
+
+.row1-box1 #title,
+#title2:hover {
+    color: #FFF;
+    margin: 0.5em 0;
+}
+
+/* -------------------------------- section 4 ------------------------------- */
+.process{
+    padding: 6.6em;
+}
+.pro-row1 {
+    display: flex;
+}
+
+.pro-row1-col1,
+.pro-row1-col2 {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.pro-row1-col1 .row1-btn p {
+    border: 2px solid;
+    width: 5vw;
+    border-radius: 50px;
+    padding: 0.2em;
+    background-color: green;
+    color: white;
+}
+
+.pro-row1-col1 .rolw1-title p {
+    color: #181818;
+    font-family: Cabin;
+    font-weight: 700;
+    font-size: 3em;
+    width: 30vw;
+}
+
+.pro-row1-col1 .row1-subtitle p {
+    color: #595566;
+    font-family: Lato;
+    font-size: 1em;
+    font-weight: 400;
+    width: 30vw;
+}
+
+.pro-row1-col1 hr {
+    width: 30vw;
+    margin: 0.9em 0;
+}
+
+.btn-1,
+.btn-2,
+.btn-3 {
+    display: flex;
+}
+
+.btn-1 .btn {
+    border: 2px solid none;
+    width: 1vw;
+    border-radius: 50%;
+    padding: 0.9em 2em;
+    background-color: yellow;
+    margin: 0 1.5em 0 0;
+}
+
+.btn-1 .btn>p {
+    font-size: 2em;
+}
+
+.btn-2 .btn {
+    border: 2px solid none;
+    width: 1vw;
+    border-radius: 50%;
+    padding: 0.9em 2em;
+    background-color: green;
+    margin: 0 1.5em 0 0;
+}
+
+.btn-2 .btn>p,
+.btn-3 .btn>p {
+    font-size: 2em;
+    color: white;
+}
+
+.btn-3 .btn {
+    border: 2px solid none;
+    width: 1vw;
+    border-radius: 50%;
+    padding: 0.9em 2em;
+    background-color: black;
+    margin: 0 1.5em 0 0;
+}
+
+.btn-1-title>p {
+    color: #181818;
+    font-family: Cabin;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.btn-1-text>p {
+    color: #595566;
+    font-family: Lato;
+    font-size: 1em;
+    font-weight: 400;
+    width: 20vw;
+}
+
+.row1-col2-btn>p {
+    border: 2px solid none;
+    width: 13vw;
+    border-radius: 50px;
+    padding: 0.2em;
+    background-color: yellow;
+    text-align: center;
+}
+
+.row1-col2-title>P {
+    color: #181818;
+    font-family: Cabin;
+    font-weight: 700;
+    font-size: 3em;
+    width: 50vw;
+}
+
+.row1-col2-subtitle>P {
+    color: #595566;
+    font-family: Lato;
+    font-size: 1em;
+    font-weight: 400;
+    width: 40vw;
+}
+
+.col2-row1 {
+    display: flex;
+    background-color: #FAFAFA;
+}
+
+.col2-row1-box1 {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 1em;
+}
+
+.col2-row1-box1-title>p {
+    color: #181818;
+    font-family: Cabin;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.col2-row1-box1-subtitle>p {
+    color: #595566;
+    font-family: Lato;
+    font-size: 1em;
+    font-weight: 400;
+}
