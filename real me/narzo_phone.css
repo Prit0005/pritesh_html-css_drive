@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cointner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.navbar {
+    position: sticky;
+    top: 20px;
+    width: 100%;
+    z-index: 5;
+}
+
+.header {
+    padding: 0 0 2em;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.te {
+    text-align: end;
+}
+
+.ac {
+    align-items: center;
+}
+
+.col-50 {
+    width: 100%;
+    padding: 6.6px;
+}
+
+.col-50 ul li,
+.col-30 ul li {
+    display: inline-block;
+}
+
+.col-50 li a {
+    text-decoration: none;
+    color: #666;
+    margin: 0 1em;
+}
+
+.col-50 ul li a:hover,
+.col-30 ul li a:hover,
+.col-20 a:hover {
+    color: rgb(255, 213, 0);
+}
+
+.col-30 ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 0 1em;
+}
+
+.col-50 a,
+.col-30 a,
+.col-20 a {
+    text-decoration: none;
+}
+
+.col-50 h3 {
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+.col-50 button {
+    padding:1em 2em ;
+    margin: 1em 0;
+    border-radius: 20px;
+}
+
+.col-50 p,
+.col-50 a {
+    margin: 1em 0;
+    color: black;
+}
+
+.col-30 a,
+.col-20 a {
+    color: black;
+}
+
+.col-50 .price {
+    color: red;
+    font-size: 2em;
+}
+
+.col-16 {
+    width: 15%;
+    padding: 3em 0;
+    text-align: center;
+}
+
+.col-16 .price {
+    color: red;
+}
+
+.two {
+    background-color: whitesmoke;
+    padding: 1em;
+}
+
+.info {
+    background-color: white;
+    padding: 4em;
+}
+
+.info img {
+    margin: -2px 0;
+}
+
+.remarks p {
+    margin: 2em 4em;
+    font-size: 1.5em;
+}
+
+.footer {
+    padding: 4em 0;
+}
+
+.col-20 h4 {
+    margin: 1em 0;
+}
+
+.col-16 a {
+    text-decoration: none;
+    color: black;
+}
+
+.col-20 p,
+i {
+    margin: 1em 0;
+}
+
+.col-20 button {
+    padding: 0.7em;
+    font-size: 1em;
+    border-radius: 50px;
+}
+
+.col-20 button:hover {
+    background-color: black;
+    color: white;
+}
+
+hr {
+    margin: 1em 0;
+}
