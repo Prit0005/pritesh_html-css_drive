@@ -1,0 +1,32 @@
+@media(min-width:576px){
+    .cointner{
+        width: 520px;
+    }
+    .col-20{
+        width: 50%;
+    }
+}
+@media(min-width:786px){
+    .cointner{
+        width: 720px;
+    }
+   
+}
+@media(min-width:992px){
+    .cointner{
+        width: 920px;
+    }
+    .col-50{
+        width: 50%;
+    }
+
+    .col-20{
+        width: 20%;
+    }
+}
+@media(min-width:1200px){
+    .cointner{
+        width: 1120px;
+    }
+   
+}
