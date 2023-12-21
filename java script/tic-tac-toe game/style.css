@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    background-color: #331e36;
+}
+button{
+    height: 100px;
+    width: 100px;
+    margin: 1em ;
+    border-radius: 1rem;
+    border: none;
+    background-color:#41337a;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    color:#6ea4bf;
+    font-size: 2em;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+input{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color:#6ea4bf;
+    font-size: 1.25em;
+}

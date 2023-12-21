@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            border: 2px solid;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <button id="btn" type="button">click me!</button>
+    <button id="clr" type="button">color</button>
+    <div id="hover"></div>
+    <script>
+        // let elements = document.getElementById("body")
+        // elements.onclick = () => {
+        //     console.log("clicked");
+        // }
+
+
+
+        let ele = document.getElementById("hover")
+        ele.onmouseover = () => {
+            ele.style.backgroundColor = "yellow"
+        }
+
+
+        let clr = document.querySelector("#body");
+        let mode = "white";
+
+        clr.addEventListener("click", () => {
+            if (mode === "white") {
+                clr.style.backgroundColor = "black";
+                mode = "black";
+            } else {
+                clr.style.backgroundColor = "white";
+                mode = "white"; 
+            }
+        });
+
+    </script>
+</body>
+
+</html>

@@ -5,7 +5,7 @@
 
  /* sec1 css */
  .container {
-     width: 100%;
+     width: 1200px;
      margin: 0 auto;
  }
 
@@ -207,17 +207,18 @@
  .row-sec2 {
      display: flex;
      justify-content: space-between;
-     width: 100%;
-     flex-wrap: wrap;
-     
+     position: relative;
  }
 
  .row-sec4 {
      display: flex;
      justify-content: space-between;
      margin: 65px 0 0 0;
+     position: relative;
  }
-
+.col1,.col2,.col3{
+    width: 30%;
+}
  .box1,
  .box2,
  .box3 {
@@ -227,16 +228,11 @@
      background-color: transparent;
  }
 
- .col1,
- .col2,
- .col3 {
-     width: 100%;
- }
-
  .img1 img,
  .img2 img,
  .img3 img {
      width: 100%;
+     text-align: center;
  }
 
  .row-sec4 h2 {
@@ -278,36 +274,7 @@
      font-weight: 400;
      font-family: "Montserrat";
  }
- @media(min-width:576px){
-    .container{
-        width: 500px;
-    }
-}
- @media(min-width:678px){
-    .container{
-        width: 620px;
-    }
-    .col1,.col2,.col3{
-        width: 45%;
-        margin: 0 auto;
-    }
-}
- @media(min-width:992px){
-    .container{
-        width: 920px;
-    }
-    .col1,.col2,.col3{
-        width: 30%;
-    }
-}
-@media(min-width:1200px){
-    .container{
-        width: 1150px;
-    }
-    .col1,.col2,.col3{
-        width: 30%;
-    }
-}
+
  /* sec3 and sec5 css */
  .sec3,
  .sec5 {
@@ -364,13 +331,13 @@
  .sec3-col1,
  .sec5-col1 {
      width: 50%;
+     position: relative;
  }
 
  .sec3-col2 {
      width: 50%;
  }
 
- 
  .sec3head h2,
  .sec5head h2 {
      font-size: 58px;
@@ -517,11 +484,12 @@
  .sec7input {
      text-align: center;
      margin: 50px auto 100px;
+     position: relative;
  }
 
  .sec7input input {
      width: 549px;
-     height: 63px;
+    padding: 15px ;
      border-radius: 4px;
      background-color: #ffffff;
      font-size: 25px;

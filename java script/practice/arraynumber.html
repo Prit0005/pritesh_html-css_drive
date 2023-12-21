@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let number = prompt("enter the number")
+        let array = []
+        for (let i = 1; i < number; i++) {
+            array[i - 1] = i;
+
+        } console.log(array);
+
+        let sum = array.reduce((res, cur) => {
+            return res + cur;
+        })
+        console.log("sum is", sum);
+
+        let mul = array.reduce((res, cur) => {
+            return res * cur;
+        })
+        console.log("mul is", mul);
+    </script>
+</body>
+
+</html>

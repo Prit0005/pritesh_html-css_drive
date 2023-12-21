@@ -112,7 +112,7 @@ li a {
 /* sec2 css */
 
 .cointner2 {
-    width: 100%;
+    width: 1300px;
     margin: 0 auto;
     position: relative;
 }
@@ -120,7 +120,6 @@ li a {
 .row1-sec2 {
     display: flex;
     margin: 50px auto;
-    width: 100%;
 }
 
 .col2-sec2 {
@@ -147,7 +146,7 @@ li a {
 .col2-sec2-text {
     position: absolute;
     top: 27px;
-    right: 447px;
+    right: 355px;
     font-size: 25px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -159,7 +158,7 @@ li a {
 .col2-sec2-text2 {
     position: absolute;
     top: 245px;
-    right: 447px;
+    right: 340px;
     font-size: 25px;
     letter-spacing: 2px;
     text-transform: uppercase;

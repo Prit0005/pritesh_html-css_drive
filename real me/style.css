@@ -31,9 +31,6 @@
     padding: 6.6px;
 }
 
-/* .col-30{
-    width: 100%;
-} */
 .col-20{
     width: 100%;
 }
@@ -98,6 +95,7 @@
 .dare img {
     width: 100%;
     margin: 3em 0;
+    transition: 1s ease-in-out;
 }
 
 .best-seller_rec-pro img:hover,
@@ -111,6 +109,7 @@
 .realmereward img:hover,
 .dare img:hover {
     transform: scale(1.2);
+    transition: 1s ease-in-out;
 }
 
 .second {
@@ -302,4 +301,8 @@
 }
 hr{
     margin: 1em 0;
+}
+.col-30 button{
+    padding: 1em;
+    border-radius: 50px;
 }
