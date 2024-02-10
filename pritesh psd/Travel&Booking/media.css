@@ -1,0 +1,40 @@
+@media(min-width:576px){
+    html{
+        font-size: 25%;
+    }
+    .cointner{
+        width: 520px;
+    }
+}
+@media(min-width:768px){
+    html{
+        font-size: 35%;
+    }
+    .cointner{
+        width: 720px;
+    }
+}
+@media(min-width:992px){
+    html{
+        font-size: 45%;
+    }
+    .cointner{
+        width: 920px;
+    }
+}
+@media(min-width:1200px){
+    html{
+        font-size: 55%;
+    }
+    .cointner{
+        width: 1120px;
+    }
+}
+@media(min-width:1400px){
+    html{
+        font-size: 62.5%;
+    }
+    .cointner{
+        width: 1320px;
+    }
+}

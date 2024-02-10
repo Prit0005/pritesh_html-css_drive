@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    padding: 2rem 0;
+}
+
+.ac {
+    align-items: center;
+}
+
+.tc {
+    text-align: center;
+}
+
+.cointner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.jsb {
+    justify-content: space-between;
+}
+
+.link ul li {
+    display: inline-block;
+    margin: 0 2rem;
+}
+
+.link ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.link ul li a:hover {
+    color: #2F80ED;
+    transition: .5s ease-in-out;
+}
+
+.reg_signin button,
+.search button {
+    padding: 1.4rem 2rem;
+    margin: 0 0 0 .6rem;
+    border-radius: 1rem;
+    color: #2F80ED;
+    border: .2rem #2F80ED solid;
+}
+
+.reg_signin button:hover,
+.search button:hover {
+    color: white;
+    background-color: #2F80ED;
+    border: white .2rem solid;
+    transition: .5s ease-in-out;
+    transform: scale(0.9);
+}
+
+.sec-1 {
+    background-image: url(./Assest/sec1-main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec1_main {
+    padding: 5rem 0;
+}
+
+.sec1_title,
+.sec1_subtitle {
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.sec1_title p {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin: 10rem 0 2rem 0;
+}
+
+.sec1_subtitle p {
+    font-size: 2rem;
+    font-weight: 400;
+    width: 64rem;
+    margin: 10rem auto;
+}
+
+.search {
+    width: 70%;
+    margin: 5rem auto;
+    background-color: #FFF;
+    border-radius: .8rem;
+    padding: 1rem 0;
+    box-shadow: 0 0 16px rgb(0, 0, 0, 0.2);
+}
+
+.search input {
+    background-color: #f2f2f2;
+    border-radius: 1rem;
+    border: none;
+    margin: 1rem;
+    padding: 2rem 1rem;
+}
+
+.search ::placeholder {
+    padding: 0 2rem;
+    color: #4f4f4f;
+}
+
+.restrictions {
+    border-radius: 8px;
+    background: #FCEFCA;
+    margin: 5rem 0;
+}
+
+.restrictions p {
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.restrictions i {
+    margin: 0 1rem 0 0;
+}
+
+.title p {
+    color: #181818;
+    font-family: sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 5rem 0 3rem 0;
+}
+
+.subtitle p {
+    width: 50%;
+    color: var(--Gray-1, #333);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+
+.col-25 .c {
+    color: #181818;
+    font-family: sans-serif;
+    margin: 1rem 0;
+}
+
+.col-25 .c h4 {
+    font-size: 2rem;
+}
+
+.col-25 .c p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.t-title p{
+    /* color: #FFF; */
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 50%;
+}
